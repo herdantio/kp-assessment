@@ -1,11 +1,11 @@
 <script setup>
-import Navbar from '../organisms/Navbar.vue';
+import NavbarTop from '../organisms/NavbarTop.vue'
 
 </script>
 
 <template>
   <div>
-      <Navbar></Navbar>
+    <NavbarTop />
     <h1>Hello World</h1>
   </div>
 </template>

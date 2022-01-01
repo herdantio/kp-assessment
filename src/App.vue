@@ -1,9 +1,9 @@
 <script setup>
-import Covid from './components/Pages/Covid.vue';
+import Covid from './components/Pages/Covid.vue'
 </script>
 
 <template>
-  <Covid></Covid>
+  <Covid />
 </template>
 
 <style>
