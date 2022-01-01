@@ -1,5 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import './index.css'
+import root from './store/index.js'
 
-createApp(App).mount('#app')
+import './index.css'
+import { createStore } from 'vuex'
+
+const store = createStore(root)
+
+createApp(App).use(store).mount('#app')

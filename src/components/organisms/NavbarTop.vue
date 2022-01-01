@@ -1,7 +1,7 @@
 <template>
   <div class="px-32 py-5">
-    <div class="flex flex-row">
-      <div class="mr-96">
+    <div class="flex flex-row justify-between">
+      <div>
         <img
           src="../../assets/kp-logo.PNG"
           width="150"
