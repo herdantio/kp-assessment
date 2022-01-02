@@ -1,5 +1,5 @@
 <template>
-  <div class="px-32 py-5">
+  <div class="px-32 py-5 bg-white">
     <div class="flex flex-row justify-between">
       <div>
         <img
