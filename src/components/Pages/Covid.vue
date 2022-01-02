@@ -1,17 +1,12 @@
 <script setup>
-import { computed } from 'vue'
-import { useStore } from 'vuex'
 import NavbarTop from '../organisms/NavbarTop.vue'
-const store = useStore()
-const text = computed(() => {
-  return store.state.covidModule.text
-})
+import SelectProvince from '../organisms/SelectProvince.vue';
 </script>
 
 <template>
   <div>
     <NavbarTop />
-    <h1> {{ text }} </h1>
+    <SelectProvince />
   </div>
 </template>
 
