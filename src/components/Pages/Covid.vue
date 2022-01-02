@@ -1,6 +1,7 @@
 <script setup>
 import NavbarTop from '../organisms/NavbarTop.vue'
 import SelectProvince from '../organisms/SelectProvince.vue';
+import CovidInfo from '../organisms/CovidInfo.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import SelectProvince from '../organisms/SelectProvince.vue';
           Semua Filter
         </button>
       </div>
+      <CovidInfo class="mt-[81px]"/>
     </div>
   </div>
 </template>
