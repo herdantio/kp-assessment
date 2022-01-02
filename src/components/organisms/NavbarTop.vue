@@ -3,7 +3,7 @@
     <div class="flex flex-row justify-between">
       <div>
         <img
-          src="../../assets/kp-logo.PNG"
+          src="../../assets/kpLogo.png"
           width="150"
           height="36"
         >
