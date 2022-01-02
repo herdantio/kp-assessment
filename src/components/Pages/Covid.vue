@@ -7,6 +7,13 @@ import SelectProvince from '../organisms/SelectProvince.vue';
   <div>
     <NavbarTop />
     <SelectProvince />
+    <div id="wrapperBody" class="px-32">
+      <div id="filterButton" class="flex flex-row-reverse mt-[24px] mb-[22px]">
+        <button class="w-[173px] h-[39px] bg-kp-blue text-white text-[16px] font-semibold px-[24px] py-[8px] rounded-[4px]">
+          Semua Filter
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
