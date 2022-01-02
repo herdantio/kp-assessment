@@ -22,7 +22,7 @@ const infoImages = computed(() => {
             <button class="text-[16px] font-semibold text-kp-blue underline">Lihat Semua</button>
         </div>
         <div class="mt-[20px] flex flex-row space-x-5 overflow-x-auto">
-            <img  v-for="image in infoImages" :key="image" :src="image" class="max-w-xs rounded border"/>
+            <img  v-for="image in infoImages" :key="image" :src="image" class="max-w-[256px] rounded border"/>
         </div>
     </div>
 </template>
