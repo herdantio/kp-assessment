@@ -1,7 +1,28 @@
-# Vue 3 + Vite
+# Klinik Pintar Test Assessment
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is for klinik pintar frontend intern test assessment
+Built using vue 3, Vuex, and tailwind
 
-## Recommended IDE Setup
+There are some flaws in this project such as:
+* API can't be called due to CORS
+* Filter functionality (Province, All filters) is stripped due to API call inability
+* UI inconsitency
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+I belive the flaws can be fixed with API availability provided figa mockup for better pixel match, and more time to finish.
+
+-----
+
+## To Install Dependencies
+```
+npm install
+```
+
+## To Run Development Mode
+```
+npm run dev
+```
+
+## To Run Build Project
+```
+npm run build
+```
