@@ -1,5 +1,7 @@
 # Klinik Pintar Test Assessment
 
+live url: https://dreamy-spence-74da1c.netlify.app/
+
 This project is for klinik pintar frontend intern test assessment
 Built using vue 3, Vuex, and tailwind
 
