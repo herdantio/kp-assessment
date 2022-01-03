@@ -3,6 +3,7 @@ import NavbarTop from '../organisms/NavbarTop.vue'
 import SelectProvince from '../organisms/SelectProvince.vue';
 import CovidInfo from '../organisms/CovidInfo.vue';
 import PageFooter from '../organisms/PageFooter.vue';
+import ClinicsList from '../organisms/ClinicsList.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import PageFooter from '../organisms/PageFooter.vue';
         </button>
       </div>
       <CovidInfo class="mt-[81px]"/>
+      <ClinicsList class="mt-[40px]"/>
     </div>
     <PageFooter />
   </div>
